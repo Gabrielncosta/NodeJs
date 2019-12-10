@@ -11,7 +11,7 @@ mongoose.connect('mongodb://localhost:27017/nodeapi',
 );
 requireDir('./src/models');
 
-// const Product = mongoose.model('Product');
+// hello const Product = mongoose.model('Product');
 
 // rotas
 app.use('/api', require('./src/routes'))
